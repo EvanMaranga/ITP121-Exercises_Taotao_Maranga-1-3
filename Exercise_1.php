@@ -6,14 +6,14 @@
     <title>User Age Classifier</title>
     <style>
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Changed font style */
-            background: #4CAF50; /* Changed background color to green */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #4CAF50; 
             margin: 0;
             padding: 0;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh; /* Changed height to 100vh */
+            height: 100vh;
         }
         .container {
             background-color: #fff;
@@ -21,13 +21,13 @@
             padding: 20px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
             text-align: center;
-            max-width: 800px; /* Changed max-width to twice the current width */
-            width: 100%; /* Added width to make it stretch to the width of the parent */
+            max-width: 800px; 
+            width: 100%; 
         }
         h2 {
             margin-bottom: 20px;
-            font-family: 'Arial Black', sans-serif; /* Changed font style */
-            color: #333; /* Changed font color */
+            font-family: 'Arial Black', sans-serif;
+            color: #333;
         }
         form {
             display: flex;
@@ -36,8 +36,8 @@
         }
         label {
             margin-bottom: 10px;
-            font-family: 'Times New Roman', Times, serif; /* Changed font style */
-            color: #555; /* Changed font color */
+            font-family: 'Times New Roman', Times, serif;
+            color: #555;
         }
         input[type="number"] {
             padding: 10px;
@@ -46,16 +46,16 @@
             margin-bottom: 10px;
         }
         button {
-            background-color: #4CAF50; /* Changed button color to green */
+            background-color: #4CAF50;
             color: white;
             padding: 10px 20px;
             border: none;
             border-radius: 5px;
             cursor: pointer;
-            font-family: 'Arial', sans-serif; /* Changed font style */
+            font-family: 'Arial', sans-serif;
         }
         button:hover {
-            background: linear-gradient(45deg, #5cb85c, #4CAF50); /* Changed button hover color */
+            background: linear-gradient(45deg, #5cb85c, #4CAF50); 
         }
     </style>
 </head>
