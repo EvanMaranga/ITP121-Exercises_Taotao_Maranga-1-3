@@ -69,10 +69,10 @@
         </form>
         <?php
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
-            // Retrieve age from the form
+            
             $age = $_POST['age'];
             
-            // Classify the user based on age
+            
             if ($age < 18) {
                 $classification = "minor";
             } elseif ($age >= 18 && $age < 65) {
@@ -81,7 +81,7 @@
                 $classification = "senior citizen";
             }
             
-            // Display feedback
+            
             echo "<p>Your age is $age years old. You are classified as a $classification.</p>";
         }
         ?>
