@@ -44,15 +44,15 @@
         
         $number = 5;
         $factorialResult = factorial($number);
-        echo "<h1>The Factorial of 5 is: <span class='underscore'>120</span></h1>"; /* Added underscore to 120 */
+        echo "<h1>The Factorial of 5 is: <span class='underscore'>120</span></h1>"; 
         
         
         $students = array("Evan", "Pepel", "Pama", "Gene", "Taotao");
         
         
-        echo "<h2>Student Names:</h2>"; /* Adjusted font size */
+        echo "<h2>Student Names:</h2>"; 
         foreach ($students as $student) {
-            echo "<p>$student</p>"; /* Adjusted font size */
+            echo "<p>$student</p>";
         }
         ?>
     </div>
