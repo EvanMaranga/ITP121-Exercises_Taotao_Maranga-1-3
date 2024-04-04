@@ -6,8 +6,8 @@
     <title>Login Form</title>
     <style>
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Changed font style */
-            background-color: #4CAF50; /* Changed background color to green */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #4CAF50;
             margin: 0;
             padding: 0;
             display: flex;
@@ -24,7 +24,7 @@
         }
         h2 {
             margin-bottom: 20px;
-            color: #333; /* Darker text color */
+            color: #333;
         }
         form {
             display: flex;
@@ -33,7 +33,7 @@
         }
         label {
             margin-bottom: 10px;
-            color: #333; /* Darker text color */
+            color: #333;
         }
         input[type="text"],
         input[type="password"] {
@@ -56,7 +56,7 @@
         }
         .message {
             margin-top: 20px;
-            color: #333; /* Darker text color */
+            color: #333;
         }
         .success {
             color: green;
@@ -78,15 +78,15 @@
         </form>
         <?php
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
-            // Dummy username and password for validation
+            
             $valid_username = "admin";
             $valid_password = "admin";
             
-            // Retrieve username and password from the form
+            
             $username = $_POST['username'];
             $password = $_POST['password'];
             
-            // Validate login
+            
             if ($username === $valid_username && $password === $valid_password) {
                 echo "<p class='message success'>Login successful! Welcome, $username!</p>";
             } else {
